@@ -1,0 +1,28 @@
+{
+  "name": "esbuild-plugin-lit-minify-html",
+  "version": "1.0.0",
+  "description": "minify html template for lit",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "cd test; node ./build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "@babel/generator": "^7.24.1",
+    "@babel/parser": "^7.24.1",
+    "@babel/traverse": "^7.24.1",
+    "@babel/types": "^7.24.0",
+    "html-minifier-terser": "^7.2.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.2",
+    "lit": "^3.1.2",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.3"
+  },
+  "files": [
+    "main.js"
+  ]
+}
