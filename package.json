@@ -1,7 +1,17 @@
 {
   "name": "esbuild-plugin-lit-minify-html",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "minify html template for lit",
+  "keywords": ["lit", "minify", "compress", "trim", "html template", "template-literals"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chapery/esbuild-plugin-lit-minify-html.git"
+  },
+  "homepage": "https://github.com/chapery/esbuild-plugin-lit-minify-html.git",
+  "bugs": {
+    "url": "https://github.com/chapery/esbuild-plugin-lit-minify-html/issues",
+    "email": "ruoyeny@gmail.com"
+  },
   "main": "main.js",
   "type": "module",
   "scripts": {
